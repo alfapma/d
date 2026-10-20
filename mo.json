@@ -1,0 +1,15 @@
+{
+  "agents": {
+    "build": {
+      "steps": 1000,
+      "request": {
+        "body": { "temperature": 0.40 }
+      }
+    },
+    "plan": {
+      "request": {
+        "body": { "temperature": 0.75 }
+      }
+    }
+  }
+}
